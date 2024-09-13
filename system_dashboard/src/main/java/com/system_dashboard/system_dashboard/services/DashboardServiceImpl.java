@@ -5,7 +5,7 @@ import com.system_dashboard.system_dashboard.repositories.UserRepository;
 
 import java.util.ArrayList;
 import java.util.UUID;
-
+import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -39,5 +39,9 @@ public class DashboardServiceImpl implements DashboardService{
         // return user that matches specific id
         return this.userRepository.findUserByUserId(userId);
     }
-    
+
+    @Override
+    public Optional<User> getUserByEmail(String email) {
+        return this.userRepository.findUserByEmail(email);
+    }
 }

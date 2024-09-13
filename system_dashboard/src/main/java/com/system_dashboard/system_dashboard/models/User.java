@@ -1,15 +1,13 @@
 package com.system_dashboard.system_dashboard.models;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import jakarta.annotation.Nullable;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
+import jakarta.validation.constraints.NotNull;
 
 import java.util.Date;
 import java.util.UUID;
 
 @Entity
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
@@ -27,8 +25,7 @@ public class User {
 
     }
 
-    public User(UUID userId, String firstName, String lastName, String email, String role){
-        this.userId = userId;
+    public User(String firstName, String lastName, String email, String role){
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
