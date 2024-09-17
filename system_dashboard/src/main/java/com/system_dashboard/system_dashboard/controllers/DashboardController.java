@@ -25,7 +25,9 @@ public class DashboardController {
     DashboardController(DashboardServiceImpl dashboardService){
         this.dashboardService = dashboardService;
     }
-
+    /*------------------------------
+    --------------USER--------------
+    ------------------------------*/
     @GetMapping("/users")
     public ResponseEntity<ArrayList<User>> getAllUsers(){
         ArrayList<User> users = this.dashboardService.getAllUsers();
@@ -43,6 +45,10 @@ public class DashboardController {
             this.dashboardService.createUser(newUser);
             return new ResponseEntity<>(newUser, HttpStatus.OK);
     }
+
+    /*------------------------------
+    --------------IOT DEVICES--------------
+    ------------------------------*/
     @GetMapping("/iot")
     public ResponseEntity<ArrayList<IotDevice>> getAllIotDevices(){
         ArrayList<IotDevice> iotDevices = this.dashboardService.getAllIotDevices();
@@ -53,6 +59,18 @@ public class DashboardController {
         Optional<IotDevice> iotDevice = this.dashboardService.getIotDeviceByName(name);
         return new ResponseEntity<>(iotDevice, HttpStatus.OK);
     }
+    @GetMapping("/iot/active")
+    public ResponseEntity<ArrayList<IotDevice>> getAllActiveIotDevices(){
+        ArrayList<IotDevice> iotDevice = this.dashboardService.getAllActiveIotDevices();
+        return new ResponseEntity<>(iotDevice, HttpStatus.OK);
+    }
+    @GetMapping("/iot/inactive")
+    public ResponseEntity<ArrayList<IotDevice>> getAllInactiveIotDevices(){
+        return new ResponseEntity<>(this.dashboardService.getAllInactiveIotDevices(), HttpStatus.OK);
+    }
+    /*------------------------------
+    --------------CCTV--------------
+    ------------------------------*/
     @GetMapping("/cctv")
     public ResponseEntity<ArrayList<CctvDevice>> getAllCctvDevices(){
         ArrayList<CctvDevice> cctvDevices = this.dashboardService.getAllCctvDevices();
@@ -63,6 +81,19 @@ public class DashboardController {
         Optional<CctvDevice> cctvDevice = this.dashboardService.getCctvDeviceByName(name);
         return new ResponseEntity<>(cctvDevice, HttpStatus.OK);
     }
+    @GetMapping("/cctv/active")
+    public ResponseEntity<ArrayList<CctvDevice>> getAllActiveCctvDevices(){
+        ArrayList<CctvDevice> cctvDevices = this.dashboardService.getAllActiveCctvDevices();
+        return new ResponseEntity<>(cctvDevices, HttpStatus.OK);
+    }
+    @GetMapping("/cctv/inactive")
+    public ResponseEntity<ArrayList<CctvDevice>> getAllInactiveCctvDevices(){
+        ArrayList<CctvDevice> cctvDevices = this.dashboardService.getAllInactiveCctvDevices();
+        return new ResponseEntity<>(cctvDevices, HttpStatus.OK);
+    }
+    /*------------------------------
+    --------------DRONE-------------
+    ------------------------------*/
     @GetMapping("/drone")
     public ResponseEntity<ArrayList<DroneDevice>> getAllDroneDevices(){
         ArrayList<DroneDevice> droneDevices = this.dashboardService.getAllDroneDevices();
@@ -72,6 +103,16 @@ public class DashboardController {
     public ResponseEntity<Optional<DroneDevice>> getSingleDroneDevice(@PathVariable String name){
         Optional<DroneDevice> droneDevice = this.dashboardService.getDroneDeviceByName(name);
         return new ResponseEntity<>(droneDevice, HttpStatus.OK);
+    }
+    @GetMapping("/drone/active")
+    public ResponseEntity<ArrayList<DroneDevice>> getAllActiveDroneDevices(){
+        ArrayList<DroneDevice> droneDevices = this.dashboardService.getAllActiveDroneDevices();
+        return new ResponseEntity<>(droneDevices, HttpStatus.OK);
+    }
+    @GetMapping("/drone/inactive")
+    public ResponseEntity<ArrayList<DroneDevice>> getAllInactiveDroneDevices(){
+        ArrayList<DroneDevice> droneDevices = this.dashboardService.getAllInactiveDroneDevices();
+        return new ResponseEntity<>(droneDevices, HttpStatus.OK);
     }
 
 

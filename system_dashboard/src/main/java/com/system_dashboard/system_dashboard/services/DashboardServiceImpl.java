@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.UUID;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -35,8 +36,9 @@ public class DashboardServiceImpl implements DashboardService{
         this.droneRepository = droneRepository;
         this.cctvDeviceRepository = cctvDeviceRepository;
     }
-    
-    
+    /*------------------------------
+    --------------USER--------------
+    ------------------------------*/
     @Override
     public User createUser(User user) {
         // create a new user
@@ -60,6 +62,9 @@ public class DashboardServiceImpl implements DashboardService{
         return this.userRepository.findUserByEmail(email);
     }
 
+    /*------------------------------
+    --------------IOT DEVICES--------------
+    ------------------------------*/
     @Override
     public ArrayList<IotDevice> getAllIotDevices() {
         return this.iotDeviceRepository.findAll();
@@ -76,34 +81,61 @@ public class DashboardServiceImpl implements DashboardService{
     }
 
     @Override
+    public ArrayList<IotDevice> getAllActiveIotDevices() {
+        return this.iotDeviceRepository.findByActiveTrue();
+    }
+    @Override
+    public ArrayList<IotDevice> getAllInactiveIotDevices() {
+        return this.iotDeviceRepository.findByActiveFalse();
+    }
+
+    /*------------------------------
+    --------------DRONE DEVICES--------------
+    ------------------------------*/
+    @Override
     public ArrayList<DroneDevice> getAllDroneDevices() {
         return this.droneRepository.findAll();
     }
-
     @Override
     public ArrayList<DroneDevice> getDroneDeviceByDeviceId(UUID deviceId) {
         return this.droneRepository.findDroneDeviceByDeviceId(deviceId);
     }
-
     @Override
     public Optional<DroneDevice> getDroneDeviceByName(String name) {
         return this.droneRepository.findDroneDeviceByName(name);
     }
     @Override
+    public ArrayList<DroneDevice> getAllActiveDroneDevices() {
+        return this.droneRepository.findByActiveTrue();
+    }
+    @Override
+    public ArrayList<DroneDevice> getAllInactiveDroneDevices() {
+        return this.droneRepository.findByActiveFalse();
+    }
+
+    /*------------------------------
+    --------------CCTV DEVICES--------------
+    ------------------------------*/
+    @Override
     public ArrayList<CctvDevice> getAllCctvDevices() {
         return this.cctvDeviceRepository.findAll();
     }
-
     @Override
     public ArrayList<CctvDevice> getCctvDeviceByDeviceId(UUID deviceId) {
         return this.cctvDeviceRepository.findCctvDeviceByDeviceId(deviceId);
     }
-
     @Override
     public Optional<CctvDevice> getCctvDeviceByName(String name) {
         return this.cctvDeviceRepository.findCctvDeviceByName(name);
     }
-
+    @Override
+    public ArrayList<CctvDevice> getAllActiveCctvDevices() {
+        return this.cctvDeviceRepository.findByActiveTrue();
+    }
+    @Override
+    public ArrayList<CctvDevice> getAllInactiveCctvDevices() {
+        return this.cctvDeviceRepository.findByActiveFalse();
+    }
 
 
 

@@ -13,4 +13,6 @@ public interface IotDeviceRepository extends JpaRepository<IotDevice, UUID> {
     ArrayList<IotDevice> findIotDeviceByDeviceId(UUID deviceId);
     ArrayList<IotDevice> findAll();
     Optional<IotDevice> findIotDeviceByName(String name);
+    ArrayList<IotDevice> findByActiveTrue();
+    ArrayList<IotDevice> findByActiveFalse();
 }

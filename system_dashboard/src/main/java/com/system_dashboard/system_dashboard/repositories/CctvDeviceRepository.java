@@ -13,4 +13,6 @@ public interface CctvDeviceRepository extends JpaRepository<CctvDevice, UUID> {
     ArrayList<CctvDevice> findCctvDeviceByDeviceId(UUID deviceId);
     ArrayList<CctvDevice> findAll();
     Optional<CctvDevice> findCctvDeviceByName(String name);
+    ArrayList<CctvDevice> findByActiveTrue();
+    ArrayList<CctvDevice> findByActiveFalse();
 }

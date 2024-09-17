@@ -13,4 +13,6 @@ public interface DroneRepository extends JpaRepository<DroneDevice, UUID> {
     ArrayList<DroneDevice> findDroneDeviceByDeviceId(UUID deviceId);
     ArrayList<DroneDevice> findAll();
     Optional<DroneDevice> findDroneDeviceByName(String name);
+    ArrayList<DroneDevice> findByActiveTrue();
+    ArrayList<DroneDevice> findByActiveFalse();
 }
