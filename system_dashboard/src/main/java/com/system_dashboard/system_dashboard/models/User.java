@@ -20,16 +20,28 @@ public class User {
     private String email;
     
     private String role;
+
+    private String password;
     
     public User(){
 
     }
 
-    public User(String firstName, String lastName, String email, String role){
+    public User(String firstName, String lastName, String email, String role, String password) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.role = role;
+        this.password = password;
+    }
+
+    public User(UUID userId, String firstName, String lastName, String email, String role, String password) {
+        this.userId = userId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.role = role;
+        this.password = password;
     }
 
     public UUID getUserId(){
@@ -65,5 +77,12 @@ public class User {
     }
     public void setRole(String role){
         this.role = role;
+    }
+    @Column(name = "password", nullable= false)
+    public String getPassword(){
+        return password;
+    }
+    public void setPassword(String password){
+        this.password = password;
     }
 }
