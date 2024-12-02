@@ -28,6 +28,7 @@ public class DashboardController {
     ------------------------------*/
     @GetMapping("/user")
     public ResponseEntity<ArrayList<User>> getAllUsers(){
+
         ArrayList<User> users = this.dashboardService.getAllUsers();
         return new ResponseEntity<>(users, HttpStatus.OK);
     }
