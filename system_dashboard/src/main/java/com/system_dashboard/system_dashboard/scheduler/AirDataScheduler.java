@@ -28,7 +28,7 @@ public class AirDataScheduler {
     ObjectMapper objectMapper = new ObjectMapper();
     //Change file path of using localhost
     //Current file path relative to container
-    File dataFile = new File("/app/airDevices.json");
+    File dataFile = new File("airDevices.json");
     List<IOTAirDevice> airDevices;
     {
         //read devices from json file, if error throw error
