@@ -1,9 +1,10 @@
 package com.system_dashboard.system_dashboard.scheduler;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.system_dashboard.system_dashboard.models.IOTAirData;
 import com.system_dashboard.system_dashboard.models.IOTAirDevice;
 import com.system_dashboard.system_dashboard.repositories.IOTAirDataRespository;
-import com.system_dashboard.system_dashboard.repositories.IOTAirDeviceRespository;
+//import com.system_dashboard.system_dashboard.repositories.IOTAirDeviceRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -15,16 +16,29 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
+import java.io.IOException;
+import java.util.*;
+import java.io.File;
 @Component
 public class AirDataScheduler {
 
-    @Autowired
-    private IOTAirDeviceRespository iotAirDeviceRespository;
+    //@Autowired
+    //private IOTAirDeviceRespository iotAirDeviceRespository;
+    ObjectMapper objectMapper = new ObjectMapper();
+    //Change file path of using localhost
+    //Current file path relative to container
+    File dataFile = new File("/app/airDevices.json");
+    List<IOTAirDevice> airDevices;
+    {
+        //read devices from json file, if error throw error
+        try {
+            airDevices = objectMapper.readValue(dataFile, new TypeReference<List<IOTAirDevice>>() {
+            });
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     @Autowired
     private IOTAirDataRespository iotAirDataRespository;
@@ -36,11 +50,12 @@ public class AirDataScheduler {
 
     @Value("${air.api.key}")
     String airApiKey;
-    @Scheduled(cron = "0 5 6-18 * * ?") // Every hour starting at 5 minutes past the hour, between 6 AM and 6 PM
+    @Scheduled(cron = "0 5 8-20 * * ?") // Every hour starting at 5 minutes past the hour, between 8 AM and 8 PM
     public void getAirDataFromApiAndStore() {
         try {
-            // Retrieve iot devices
-            List<IOTAirDevice> airDevices = iotAirDeviceRespository.findAll();
+            // Retrieve iot devices from mongodb file
+            //List<IOTAirDevice> airDevices = iotAirDeviceRespository.findAll();
+
 
             for (IOTAirDevice device : airDevices) {
                 // Get location from iot device

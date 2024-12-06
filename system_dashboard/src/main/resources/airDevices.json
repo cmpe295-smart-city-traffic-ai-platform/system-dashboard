@@ -1,0 +1,558 @@
+[{
+  "deviceIdNo": 404640,
+  "name": "Prediction Device ID 404640",
+  "location": "37.333614,-122.049627",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 400823,
+  "name": "Prediction Device ID 400823",
+  "location": "37.334249,-122.030111",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 400292,
+  "name": "Prediction Device ID 400292",
+  "location": "37.316378,-121.972052",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 400429,
+  "name": "Prediction Device ID 400429",
+  "location": "37.319424,-121.993175",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 400560,
+  "name": "Prediction Device ID 400560",
+  "location": "37.324839,-122.002891",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 400714,
+  "name": "Prediction Device ID 400714",
+  "location": "37.316788,-121.953512",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 400799,
+  "name": "Prediction Device ID 400799",
+  "location": "37.327927,-121.876137",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 401163,
+  "name": "Prediction Device ID 401163",
+  "location": "37.316756,-121.923186",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 401327,
+  "name": "Prediction Device ID 401327",
+  "location": "37.315095,-121.914498",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 401391,
+  "name": "Prediction Device ID 401391",
+  "location": "37.337881,-121.85467",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 407711,
+  "name": "Prediction Device ID 407711",
+  "location": "37.317112,-121.941507",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 401811,
+  "name": "Prediction Device ID 401811",
+  "location": "37.325651,-121.883953",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 403401,
+  "name": "Prediction Device ID 403401",
+  "location": "37.328484,-121.870843",
+  "majorRoad": "I280"
+},
+{
+  "deviceIdNo": 400017,
+  "name": "Prediction Device ID 400017",
+  "location": "37.253303,-121.94544",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400052,
+  "name": "Prediction Device ID 400052",
+  "location": "37.255791,-121.875479",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400059,
+  "name": "Prediction Device ID 400059",
+  "location": "37.250481,-121.907735",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400174,
+  "name": "Prediction Device ID 400174",
+  "location": "37.403686,-122.06976",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400185,
+  "name": "Prediction Device ID 400185",
+  "location": "37.303131,-122.034527",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400222,
+  "name": "Prediction Device ID 400222",
+  "location": "37.275395,-122.004702",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400528,
+  "name": "Prediction Device ID 400528",
+  "location": "37.388893,-122.068829",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400690,
+  "name": "Prediction Device ID 400690",
+  "location": "37.255184,-121.876817",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400792,
+  "name": "Prediction Device ID 400792",
+  "location": "37.255491,-121.955543",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400907,
+  "name": "Prediction Device ID 400907",
+  "location": "37.257815,-121.96237",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400677,
+  "name": "Prediction Device ID 400677",
+  "location": "37.32001,-122.048757",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 407364,
+  "name": "Prediction Device ID 407364",
+  "location": "37.351529,-122.060518",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 407328,
+  "name": "Prediction Device ID 407328",
+  "location": "37.377217,-122.067542",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 404444,
+  "name": "Prediction Device ID 404444",
+  "location": "37.265311,-121.981694",
+  "majorRoad": "CA85"
+},
+{
+  "deviceIdNo": 400096,
+  "name": "Prediction Device ID 400096",
+  "location": "37.417981,-121.972547",
+  "majorRoad": "CA237"
+},
+{
+  "deviceIdNo": 400104,
+  "name": "Prediction Device ID 400104",
+  "location": "37.419313,-121.95548",
+  "majorRoad": "CA237"
+},
+{
+  "deviceIdNo": 400158,
+  "name": "Prediction Device ID 400158",
+  "location": "37.421059,-121.93678",
+  "majorRoad": "CA237"
+},
+{
+  "deviceIdNo": 400970,
+  "name": "Prediction Device ID 400970",
+  "location": "37.409675,-121.996301",
+  "majorRoad": "CA237"
+},
+{
+  "deviceIdNo": 401351,
+  "name": "Prediction Device ID 401351",
+  "location": "37.401701,-122.032879",
+  "majorRoad": "CA237"
+},
+{
+  "deviceIdNo": 413845,
+  "name": "Prediction Device ID 413845",
+  "location": "37.422887,-121.925747",
+  "majorRoad": "CA237"
+},
+{
+  "deviceIdNo": 404585,
+  "name": "Prediction Device ID 404585",
+  "location": "37.406298,-122.011605",
+  "majorRoad": "CA237"
+},
+{
+  "deviceIdNo": 404586,
+  "name": "Prediction Device ID 404586",
+  "location": "37.406475,-122.011621",
+  "majorRoad": "CA237"
+},
+{
+  "deviceIdNo": 400296,
+  "name": "Prediction Device ID 400296",
+  "location": "37.420359,-121.93915",
+  "majorRoad": "CA237"
+},
+{
+  "deviceIdNo": 400001,
+  "name": "Prediction Device ID 400001",
+  "location": "37.364085,-121.901149",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400109,
+  "name": "Prediction Device ID 400109",
+  "location": "37.362706,-121.889426",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400160,
+  "name": "Prediction Device ID 400160",
+  "location": "37.348392,-121.860589",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400168,
+  "name": "Prediction Device ID 400168",
+  "location": "37.391166,-121.995524",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400172,
+  "name": "Prediction Device ID 400172",
+  "location": "37.376264,-121.939712",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 402364,
+  "name": "Prediction Device ID 402364",
+  "location": "37.368104,-121.90788",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400863,
+  "name": "Prediction Device ID 400863",
+  "location": "37.371809,-121.91655",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400206,
+  "name": "Prediction Device ID 400206",
+  "location": "37.381356,-121.96211",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400372,
+  "name": "Prediction Device ID 400372",
+  "location": "37.38482,-121.974251",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400400,
+  "name": "Prediction Device ID 400400",
+  "location": "37.34241,-121.854543",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400545,
+  "name": "Prediction Device ID 400545",
+  "location": "37.40013,-122.033628",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400804,
+  "name": "Prediction Device ID 400804",
+  "location": "37.336089,-121.848437",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 402362,
+  "name": "Prediction Device ID 402362",
+  "location": "37.358996,-121.871981",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 401998,
+  "name": "Prediction Device ID 401998",
+  "location": "37.404178,-122.05107",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 401937,
+  "name": "Prediction Device ID 401937",
+  "location": "37.411338,-122.076826",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 401996,
+  "name": "Prediction Device ID 401996",
+  "location": "37.396411,-122.015716",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400904,
+  "name": "Prediction Device ID 400904",
+  "location": "37.395067,-122.010518",
+  "majorRoad": "US101"
+},
+{
+  "deviceIdNo": 400665,
+  "name": "Prediction Device ID 400665",
+  "location": "37.341439,-121.849299",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407206,
+  "name": "Prediction Device ID 407206",
+  "location": "37.372897,-121.851246",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407204,
+  "name": "Prediction Device ID 407204",
+  "location": "37.366097,-121.845103",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407202,
+  "name": "Prediction Device ID 407202",
+  "location": "37.360613,-121.841794",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407200,
+  "name": "Prediction Device ID 407200",
+  "location": "37.398207,-121.875543",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407194,
+  "name": "Prediction Device ID 407194",
+  "location": "37.344191,-121.845564",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407191,
+  "name": "Prediction Device ID 407191",
+  "location": "37.407919,-121.878542",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407190,
+  "name": "Prediction Device ID 407190",
+  "location": "37.412704,-121.880023",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407187,
+  "name": "Prediction Device ID 407187",
+  "location": "37.383139,-121.861675",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407184,
+  "name": "Prediction Device ID 407184",
+  "location": "37.427403,-121.884848",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407181,
+  "name": "Prediction Device ID 407181",
+  "location": "37.379684,-121.857783",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 407151,
+  "name": "Prediction Device ID 407151",
+  "location": "37.420741,-121.882093",
+  "majorRoad": "I680"
+},
+{
+  "deviceIdNo": 400030,
+  "name": "Prediction Device ID 400030",
+  "location": "37.359087,-121.906538",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 400045,
+  "name": "Prediction Device ID 400045",
+  "location": "37.363402,-121.902233",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 400057,
+  "name": "Prediction Device ID 400057",
+  "location": "37.335022,-121.935522",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 400088,
+  "name": "Prediction Device ID 400088",
+  "location": "37.414988,-121.912685",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 400238,
+  "name": "Prediction Device ID 400238",
+  "location": "37.413256,-121.912324",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 400253,
+  "name": "Prediction Device ID 400253",
+  "location": "37.342957,-121.925721",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 400343,
+  "name": "Prediction Device ID 400343",
+  "location": "37.348907,-121.917833",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 400951,
+  "name": "Prediction Device ID 400951",
+  "location": "37.325151,-121.940679",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 400971,
+  "name": "Prediction Device ID 400971",
+  "location": "37.368669,-121.901336",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 401464,
+  "name": "Prediction Device ID 401464",
+  "location": "37.424833,-121.916049",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 401489,
+  "name": "Prediction Device ID 401489",
+  "location": "37.427486,-121.916962",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 402289,
+  "name": "Prediction Device ID 402289",
+  "location": "37.419106,-121.914308",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 402287,
+  "name": "Prediction Device ID 402287",
+  "location": "37.405777,-121.910072",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 402285,
+  "name": "Prediction Device ID 402285",
+  "location": "37.398698,-121.908172",
+  "majorRoad": "I880"
+},
+{
+  "deviceIdNo": 400040,
+  "name": "Prediction Device ID 400040",
+  "location": "37.294949,-121.873109",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 400065,
+  "name": "Prediction Device ID 400065",
+  "location": "37.320292,-121.890281",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 400178,
+  "name": "Prediction Device ID 400178",
+  "location": "37.276874,-121.863698",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 400236,
+  "name": "Prediction Device ID 400236",
+  "location": "37.325009,-121.892984",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 400418,
+  "name": "Prediction Device ID 400418",
+  "location": "37.291828,-121.871836",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 402056,
+  "name": "Prediction Device ID 402056",
+  "location": "37.328954,-121.895643",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 404461,
+  "name": "Prediction Device ID 404461",
+  "location": "37.309012,-121.882518",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 404453,
+  "name": "Prediction Device ID 404453",
+  "location": "37.309111,-121.882596",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 402059,
+  "name": "Prediction Device ID 402059",
+  "location": "37.337479,-121.897848",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 409529,
+  "name": "Prediction Device ID 409529",
+  "location": "37.366662,-121.921519",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 401816,
+  "name": "Prediction Device ID 401816",
+  "location": "37.37116,-121.926885",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 409524,
+  "name": "Prediction Device ID 409524",
+  "location": "37.348448,-121.907247",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 400258,
+  "name": "Prediction Device ID 400258",
+  "location": "37.313462,-121.886197",
+  "majorRoad": "CA87"
+},
+{
+  "deviceIdNo": 400842,
+  "name": "Prediction Device ID 400842",
+  "location": "37.261849,-121.859205",
+  "majorRoad": "CA87"
+}]

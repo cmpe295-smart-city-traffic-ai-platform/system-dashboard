@@ -1,12 +1,12 @@
 package com.system_dashboard.system_dashboard.models;
 
 import jakarta.persistence.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+//import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "airDevices")
+//@Document(collection = "airDevices")
 public class IOTAirDevice {
-    @Id
-    private String id;
+    //@Id
+    //private String id;
     private Integer deviceIdNo;
     private String name;
     private String location;
@@ -17,19 +17,19 @@ public class IOTAirDevice {
     }
 
     public IOTAirDevice(String id, Integer deviceIdNo, String name, String location, String majorRoad) {
-        this.id = id;
+        //this.id = id;
         this.deviceIdNo = deviceIdNo;
         this.name = name;
         this.location = location;
         this.majorRoad = majorRoad;
     }
 
-    public String getId() {
-        return id;
-    }
-    public void setId(String id) {
-        this.id = id;
-    }
+    //public String getId() {
+    //    return id;
+    //}
+    //public void setId(String id) {
+    //    this.id = id;
+    //}
     public Integer getDeviceIdNo() {
         return deviceIdNo;
     }
