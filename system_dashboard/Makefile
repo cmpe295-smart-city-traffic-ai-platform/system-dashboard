@@ -7,7 +7,7 @@ test:
 	mvn clean test
 
 package-jar:
-	mvn clean package
+	mvn clean package -Dmaven.test.skip
 
 build-docker-image:
 	docker build -t system_dashboard:$(VERSION) --platform=linux/amd64 .
